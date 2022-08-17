@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Landing Page</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: white;
+            color: white;
+        }
+        header{
+            background-color: #161925;
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            padding: 8px;
+            color: white;     
+            padding: 25px;       
+        }
+        .welcome{
+            display: flex;
+            background-color: transparent;
+        }
+        .links{
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: space-between;
+            margin: 6px;
+            padding: 6px;
+            gap: 6px;
+        }
+        .headerlink button{
+            background-color: transparent;
+            border: 2px solid white;
+            border-radius: 20px;
+            color: white;
+            margin: 3px;
+            padding: 4px;
+        }
+
+        .headerlink button:hover{
+            background-color: white;
+            border: 2px solid #8EA8C3;
+            border-radius: 20px;
+            color: #161925;
+            margin: 3px;
+            padding: 4px;
+        }
+        
+        .headerlink a{
+            text-decoration: none;
+            color: white;
+        }
+        .headerlink a:hover{
+            color:#8EA8C3;
+        }
+        .welcome-section{
+            background-color: #23395B;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 2em;
+            padding: 20px;
+        }
+        .left{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            align-content: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .hero{
+            margin-bottom: 10px;
+        }
+        
+        .right{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+        }
+        .image{
+            background-color: gray;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 215px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+       <div class="welcome"><h1>Welcome to my portfolio!</h1></div> 
+       <div class="links">
+            <div class="headerlink"><button><a href="newindex.html">Header Link</a></button></div>
+            <div class="headerlink"><button><a href="newindex.html">Header Link</a></button></div>
+            <div class="headerlink"><button><a href="newindex.html">Header Link</a></button></div>       </div>
+    </header>
+    <div class="welcome-section">
+        <div class="left">
+            <div class="hero"><h1>I'm Lerone Joyner</h1></div>
+            <div class="secondary-welcome"><h2>I'm currently a sophomore at Morgan State University and an intern at Lincoln Financial Group.</h2></div>
+        </div>    
+        <div class="right">
+            <div class="image">
+                <p>Placeholder for image</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
